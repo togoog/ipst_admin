@@ -1,16 +1,18 @@
 import * as React from 'react'
 import Child from './Child'
+// import './demo.css'
+import './style.styl'
 import './style.less'
+
+// import { Button, Input } from 'antd'; // 引入antd burron
+import Button from 'antd/lib/button'
+import Input from 'antd/lib/input'
 export interface IProps {
     name: string
 }
 interface IState {
     count: number
 }
-// interface Props {
-//     name: string;
-// }
-// ts 这里怎么写？
 export default class Life extends React.Component<IProps, object> {
     constructor(props: IProps, public state:IState) {
         super(props)
@@ -32,10 +34,12 @@ export default class Life extends React.Component<IProps, object> {
         //     padding: 30
         // }
         return (
-            <div className="content">
+            <div className="fui-content styl-content">
                 <p>react lift {this.props.name}</p>
                 <Child name="child" />
                 {/* <button onClick={this.handleClickBtn}></button> */}
+                <Button type="primary" >button</Button>
+                <Input />
             </div>
         )
     }
