@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-// import App from './pages/demo/Life';
+// import Admin from './mooc-admin';
 import App from './App';
 
 import registerServiceWorker from './registerServiceWorker';

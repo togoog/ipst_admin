@@ -265,6 +265,8 @@ module.exports = {
   cssLoaderProd,
   scssLoaderDev,
   scssLoaderProd,
+  stylusLoaderDev,
+  stylusLoaderProd,
   lessLoaderDev,
   lessLoaderProd,
   fileLoader,
