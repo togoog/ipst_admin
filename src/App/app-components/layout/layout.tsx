@@ -1,9 +1,7 @@
 import * as React from 'react'
 import { Layout, Icon } from 'antd';
 import SiderMenus from 'src/App/app-components/menus/menu'
-// import Grid from 'src/pages/demo/grid/grid'
-// import Button from 'src/pages/demo/button/button'
-// import Icons from 'src/pages/demo/icons/icons'
+
 const { Header, Sider, Content } = Layout;
 import './layout.less'
 // import SiderMenus from '../menus/menu';
@@ -38,7 +36,7 @@ class LayoutDemo extends React.Component {
             />
           </Header>
           <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
-            content...
+              {this.props.children}
           </Content>
         </Layout>
       </Layout>
