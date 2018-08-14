@@ -9,7 +9,6 @@
         yarn add react-router // npm i react-router
     ```
 
-
 ### ts 中安装react-router radux...
     ```
         yarn add react-router-dom @types/react-router-dom
@@ -90,7 +89,7 @@
         yarn start // success
     ```
 
-### 遇到的问题
+# 遇到的问题
 2018-08-12 onClick传递函数是报错
 1. onClick={handler} // 方法不是void类型的 ”不能写括号“，否则会报错，类型不匹配：Types of property 'onClick' are incompatible.
     ```
