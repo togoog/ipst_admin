@@ -27,15 +27,21 @@ const MenuConfig: object[] = [
             },
             {
                 title: '通知提醒',
-                key: '/admin/ui/notification',
+                key: '/admin/ui/message',
                 icon: 'mail'
 
             },
             {
-                title: '全局Message',
-                key: '/admin/ui/messages',
-                icon: 'notification'
+                title: '列表',
+                key: '/admin/ui/list',
+                icon: 'bars'
 
+            },
+            ,
+            {
+                title: 'tips',
+                key: '/admin/ui/tips',
+                icon: 'message'
             },
             {
                 title: 'Tab页签',
@@ -53,11 +59,6 @@ const MenuConfig: object[] = [
                 title: '轮播图',
                 key: '/admin/ui/banners',
                 icon: 'picture'
-            },
-            {
-                title: 'tips',
-                key: '/admin/ui/tips',
-                icon: 'message'
             }
         ]
     },

@@ -9,7 +9,7 @@ import ButtonPage from 'src/pages/ui/button'
 import DialogPage from 'src/pages/ui/dialog'
 import LoadingPage from 'src/pages/ui/loading'
 import NotificationPage from 'src/pages/ui/notification'
-import MessagePage from 'src/pages/ui/message'
+import ListPage from 'src/pages/ui/list'
 import PicPage from 'src/pages/ui/pic'
 import BannerPage from 'src/pages/ui/banners'
 import TabsPage from 'src/pages/ui/tabs'
@@ -56,8 +56,8 @@ export default class ERouter extends React.Component {
                             <Route exact={true}  path="/admin/ui/buttons" component={ButtonPage} />
                             <Route exact={true}  path="/admin/ui/dialogs" component={DialogPage} />
                             <Route exact={true}  path="/admin/ui/loadings" component={LoadingPage} />
-                            <Route exact={true}  path="/admin/ui/notification" component={NotificationPage} />
-                            <Route exact={true}  path="/admin/ui/messages" component={MessagePage} />
+                            <Route exact={true}  path="/admin/ui/message" component={NotificationPage} />
+                            <Route exact={true}  path="/admin/ui/list" component={ListPage} />
                             <Route exact={true}  path="/admin/ui/pic" component={PicPage} />
                             <Route exact={true}  path="/admin/ui/banners" component={BannerPage} />
                             <Route exact={true}  path="/admin/ui/tabs" component={TabsPage} />

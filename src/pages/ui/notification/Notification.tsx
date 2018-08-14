@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Button, notification} from 'antd'
+import {Button, notification, Card} from 'antd'
 interface IProps {
     name?:string
 }
@@ -12,7 +12,7 @@ class NotidicationPage extends React.Component{
     public openNotification(type:string) {
         notification[type]({
             message:'通知标题',
-            description: '描述...'
+            description: type + '...'
         })
     }
 
@@ -22,7 +22,12 @@ class NotidicationPage extends React.Component{
     public render () {
         return (
             <div className="notification-page-wrap">
-                <Button type="primary" onClick={ this.openNotification.bind(this, 'success') }>Open the notification box</Button>
+                <Card title="notification">
+                    <Button type="primary" onClick={ this.openNotification.bind(this, 'success') }>success notification</Button>
+                    <Button type="primary" onClick={ this.openNotification.bind(this, 'info') }>info notification</Button>
+                    <Button type="primary" onClick={ this.openNotification.bind(this, 'warning') }>warning notification</Button>
+                    <Button type="primary" onClick={ this.openNotification.bind(this, 'error') }>error notification</Button>
+                </Card>
             </div>
         )
     }
