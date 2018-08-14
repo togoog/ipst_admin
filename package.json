@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}",
+  "name": "ipst_admin",
   "version": "0.1.0",
   "description": "{{description}}",
   "author": "{{author}}",
@@ -9,7 +9,8 @@
     "@types/jsonp": "^0.2.0",
     "@types/less": "^0.0.33",
     "@types/react-router-dom": "^4.3.0",
-    "antd": "^3.8.0",
+    "@types/prop-types": "^15.5.5",
+    "antd": "^3.8.1",
     "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
     "babel-jest": "^22.1.0",

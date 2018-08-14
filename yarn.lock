@@ -57,6 +57,12 @@
   version "10.5.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.2.tgz#f19f05314d5421fe37e74153254201a7bf00a707"
 
+"@types/prop-types@^15.5.5":
+  version "15.5.5"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.5.tgz#17038dd322c2325f5da650a94d5f9974943625e3"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@^16.0.6":
   version "16.0.6"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.6.tgz#f1a65a4e7be8ed5d123f8b3b9eacc913e35a1a3c"
@@ -217,9 +223,9 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.8.0.tgz#a4226a373fc301b9475b7d23e85433d203481858"
+antd@^3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.8.1.tgz#1780acd5e9bc6c80dc23b042161418eb88f4d80e"
   dependencies:
     array-tree-filter "^2.0.0"
     babel-runtime "6.x"
